@@ -3,7 +3,6 @@ import styles from './NewYorkTimesHomepage.module.css';
 
 const NewYorkTimesHomepage: React.FC = () => {
   const usPoliticsRef = useRef<HTMLDivElement>(null);
-  const middleEastRef = useRef<HTMLDivElement>(null);
 
   const scrollSection = (ref: React.RefObject<HTMLDivElement>, direction: 'left' | 'right') => {
     if (ref.current) {
