@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import styles from './NewYorkTimesHomepage.module.css';
+import styles from '../styles/NewYorkTimesHomepage.module.css';
 
 const NewYorkTimesHomepage: React.FC = () => {
   const usPoliticsRef = useRef<HTMLDivElement>(null);
@@ -23,7 +23,7 @@ const NewYorkTimesHomepage: React.FC = () => {
 
       <header className={styles.header}>
         <div className={styles.headerContent}>
-          <h1 className={styles.logo}>The New York Times</h1>
+          <h1 className={styles.logo}>Mediacon News</h1>
         </div>
       </header>
 
@@ -31,7 +31,7 @@ const NewYorkTimesHomepage: React.FC = () => {
       <section className={styles.section}>
         <div className={styles.sectionHeader}>
           <h2>US Politics</h2>
-          <button className={styles.showAll}>Show all</button>
+          <button className={styles.showAll}>Show all  </button>
         </div>
 
         <div className={styles.scrollWrapper}>
@@ -77,9 +77,9 @@ const NewYorkTimesHomepage: React.FC = () => {
       </section>
 
       <section className={styles.section}>
-        <div className={styles.sectionHeader}>
+        <div className={styles.sectionHeader2}>
           <h2>Middle East</h2>
-          <button className={styles.showAll}>Show all</button>
+          <button className={styles.showAll2}>Show all</button>
         </div>
 
       <div className={styles.dropnews}>
@@ -89,8 +89,11 @@ const NewYorkTimesHomepage: React.FC = () => {
           <img className={styles.image} src="https://th-i.thgim.com/public/incoming/b8pfdd/article69385269.ece/alternates/FREE_1200/AP03_28_2025_000172B.jpg" alt="" />
           </div>
           <div className={styles.dropnewscontent}>
-            <h4 className={styles.cardTitle}>Egypt on Edge as Security Tightens Over Protests</h4>
-            <p>Apr 9 2025 . 22:00</p>
+            <h4 className={styles.cardTitle}>Egypt Approves New Muscle for el-Sisi, Its Leader</h4>
+            <div className={styles.description}>
+              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBfcE9JXolswWVJV7qR4WWKKjz-MGafQvtg&s" alt="" /></div>
+              <div className={styles.date}><p>Rosmerry   &#x2022;   Apr 10,2025</p></div>
+            </div>
           </div>
           </div>
         </div>
@@ -101,7 +104,10 @@ const NewYorkTimesHomepage: React.FC = () => {
           </div>
           <div className={styles.dropnewscontent}>
             <h4 className={styles.cardTitle}>Egypt Approves New Muscle for el-Sisi, Its Leader</h4>
-            <p>Apr 9 2025 . 22:00</p>
+            <div className={styles.description}>
+              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBfcE9JXolswWVJV7qR4WWKKjz-MGafQvtg&s" alt="" /></div>
+              <div className={styles.date}><p>Rosmerry   &#x2022;   Apr 10,2025</p></div>
+            </div>
           </div>
         </div>
         </div>
@@ -111,8 +117,11 @@ const NewYorkTimesHomepage: React.FC = () => {
           <img className={styles.image} src="https://static01.nyt.com/images/2019/10/26/world/26egypt-add/merlin_161580249_debc934b-1424-4794-9be1-3579fd89b3a2-superJumbo.jpg" alt="" />
           </div>
           <div className={styles.dropnewscontent}>
-            <h4 className={styles.cardTitle}>Strong Earthquake Strikes Thai, at Least 20 deaths</h4>
-            <p>Apr 9 2025 . 22:00</p>
+            <h4 className={styles.cardTitle}>Egypt Approves New Muscle for el-Sisi, Its Leader</h4>
+            <div className={styles.description}>
+              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBfcE9JXolswWVJV7qR4WWKKjz-MGafQvtg&s" alt="" /></div>
+              <div className={styles.date}><p>Rosmerry   &#x2022;   Apr 10,2025</p></div>
+            </div>
           </div>
         </div>
         </div>
@@ -122,8 +131,11 @@ const NewYorkTimesHomepage: React.FC = () => {
           <img className={styles.image} src="https://images.indianexpress.com/2024/10/Modi-Xi-brics.jpg" alt="" />
           </div>
           <div className={styles.dropnewscontent}>
-            <h4 className={styles.cardTitle}>Peace Talks Resume After Month-Long Standoff</h4>
-            <p>Apr 9 2025 . 22:00</p>
+            <h4 className={styles.cardTitle}>Egypt Approves New Muscle for el-Sisi, Its Leader</h4>
+            <div className={styles.description}>
+              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBfcE9JXolswWVJV7qR4WWKKjz-MGafQvtg&s" alt="" /></div>
+              <div className={styles.date}><p>Rosmerry   &#x2022;   Apr 10,2025</p></div>
+            </div>
           </div>
         </div>
         </div>
@@ -133,8 +145,11 @@ const NewYorkTimesHomepage: React.FC = () => {
           <img className={styles.image} src="https://th-i.thgim.com/public/incoming/b8pfdd/article69385269.ece/alternates/FREE_1200/AP03_28_2025_000172B.jpg" alt="" />
           </div>
           <div className={styles.dropnewscontent}>
-            <h4 className={styles.cardTitle}>Egypt on Edge as Security Tightens Over Protests</h4>
-            <p>Apr 9 2025 . 22:00</p>
+            <h4 className={styles.cardTitle}>Egypt Approves New Muscle for el-Sisi, Its Leader</h4>
+            <div className={styles.description}>
+              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBfcE9JXolswWVJV7qR4WWKKjz-MGafQvtg&s" alt="" /></div>
+              <div className={styles.date}><p>Rosmerry   &#x2022;   Apr 10,2025</p></div>
+            </div>
           </div>
           </div>
         </div>
@@ -145,7 +160,10 @@ const NewYorkTimesHomepage: React.FC = () => {
           </div>
           <div className={styles.dropnewscontent}>
             <h4 className={styles.cardTitle}>Egypt Approves New Muscle for el-Sisi, Its Leader</h4>
-            <p>Apr 9 2025 . 22:00</p>
+            <div className={styles.description}>
+              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBfcE9JXolswWVJV7qR4WWKKjz-MGafQvtg&s" alt="" /></div>
+              <div className={styles.date}><p>Rosmerry   &#x2022;   Apr 10,2025</p></div>
+            </div>
           </div>
         </div>
         </div>
@@ -155,8 +173,11 @@ const NewYorkTimesHomepage: React.FC = () => {
           <img className={styles.image} src="https://static01.nyt.com/images/2019/10/26/world/26egypt-add/merlin_161580249_debc934b-1424-4794-9be1-3579fd89b3a2-superJumbo.jpg" alt="" />
           </div>
           <div className={styles.dropnewscontent}>
-            <h4 className={styles.cardTitle}>Strong Earthquake Strikes Thai, at Least 20 deaths</h4>
-            <p>Apr 9 2025 . 22:00</p>
+            <h4 className={styles.cardTitle}>Egypt Approves New Muscle for el-Sisi, Its Leader</h4>
+            <div className={styles.description}>
+              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBfcE9JXolswWVJV7qR4WWKKjz-MGafQvtg&s" alt="" /></div>
+              <div className={styles.date}><p>Rosmerry   &#x2022;   Apr 10,2025</p></div>
+            </div>
           </div>
         </div>
         </div>
@@ -166,8 +187,11 @@ const NewYorkTimesHomepage: React.FC = () => {
           <img className={styles.image} src="https://images.indianexpress.com/2024/10/Modi-Xi-brics.jpg" alt="" />
           </div>
           <div className={styles.dropnewscontent}>
-            <h4 className={styles.cardTitle}>Peace Talks Resume After Month-Long Standoff</h4>
-            <p>Apr 9 2025 . 22:00</p>
+            <h4 className={styles.cardTitle}>Egypt Approves New Muscle for el-Sisi, Its Leader</h4>
+            <div className={styles.description}>
+              <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxBfcE9JXolswWVJV7qR4WWKKjz-MGafQvtg&s" alt="" /></div>
+              <div className={styles.date}><p>Rosmerry   &#x2022;   Apr 10,2025</p></div>
+            </div>
           </div>
         </div>
         </div>

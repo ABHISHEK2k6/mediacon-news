@@ -23,5 +23,5 @@
     "include": [
     "./**/*.ts",     // Include all TypeScript files in any subdirectory
     "./**/*.tsx"     // Include all TypeScript React files in any subdirectory
-, "src/components/NewsApp.jsx", "src/App.tsx", "src/index.tsx"    ]
+, "src/components/NewsApp.jsx", "src/App.tsx", "src/index.tsx","src/components/FooterPage.tsx",  "src/components/ContentPage.tsx" ]
 }
